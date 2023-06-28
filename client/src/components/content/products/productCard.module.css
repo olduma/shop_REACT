@@ -1,0 +1,42 @@
+.productCard {
+    margin-bottom: 2rem;
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImage {
+    padding: 15px;
+    width: 60%;
+    transition: 0.3s ease-in-out;
+    margin: auto;
+}
+
+.productImage:hover {
+    padding: 15px;
+    width: 70%;
+    transition: 0.3s ease-in-out;
+    margin: auto;
+}
+
+.productDescription {
+    text-align: justify;
+}
+
+.productButton {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.productCard:hover {
+    box-shadow: 0 0 15px 1px rgba(98, 104, 114, 0.5);
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.imageWrapper {
+    width: 250px;
+    height: 250px;
+    display: flex;
+}
